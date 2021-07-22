@@ -1,0 +1,6 @@
+  :root{
+    --hue_value:0;}
+  
+  img{
+    filter: hue-rotate(var(--hue_value));  /* value of hue-rotate gets changed by variable */
+  }

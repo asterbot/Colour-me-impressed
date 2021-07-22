@@ -1,0 +1,23 @@
+{
+  "name": "Colour me impressed",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "manifest_version": 2,
+  "content_scripts":[
+     {
+       "matches":["<all_urls>"],
+       "js":["content.js"],
+       "css":["styles.css"]
+     }
+   ],
+   "browser_action":{
+     "default_popup":"popup.html",
+     "default_title":"Colour me impressed"
+   },
+   "permissions": [
+    "*://*/*",
+    "storage",
+    "tabs"
+  ],
+  "icons": {"128": "icon.png" }
+}
