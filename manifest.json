@@ -1,7 +1,7 @@
 {
   "name": "Colour me impressed",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "An extension to help the colourblind navigate the web.",
   "manifest_version": 2,
   "content_scripts":[
      {
